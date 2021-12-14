@@ -22,3 +22,7 @@ python -u -m torch.distributed.launch --nproc_per_node=# train_parallel.py
 
 To test 
 python test_image.py --input path-to-test-image --pretrained-model path-to-checkpoint-file
+
+
+
+This implementation borrows a lot of parts from NVIDIA/DeepLearningExamples github repo
